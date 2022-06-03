@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--==================== FAVICON ====================-->
+    <link
+      rel="shortcut icon"
+      href="./assets/img/web-development.png"
+    />
+    <!--==================== REMIX ICONS ====================-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Rafael Barreto - Frontend Developer</title>
+  </head>
+  <body>
+    <!--==================== HEADER PROFILE ====================-->
+    <header class="profile container">
+      <!-- Theme button -->
+      <i class="ri-moon-line change-theme" id="theme-button"></i>
+      
+      <div class="profile__container grid">
+        <div class="profile__data">
+          <div class="profile__border">
+            <div class="profile__perfil">
+              <!-- Insert your image, according to the example size of the portfolio -->
+              <img
+                src="./assets/img/profile img Rafael Barreto Frontend Developer.jpeg"
+                alt=""
+              />
+            </div>
+          </div>
+
+          <h2 class="profile__name">Rafael Barreto</h2>
+          <h3 class="profile__profession">Frontend Developer Student</h3>
+
+          <ul class="profile__social">
+            <a
+              href="https://github.com/rafaelbarretodev"
+              target="_blank"
+              class="profile__social-link"
+            >
+              <i class="ri-github-fill"></i>
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/rafaelbarretodev/"
+              target="_blank"
+              class="profile__social-link"
+            >
+              <i class="ri-linkedin-line"></i>
+            </a>
+
+            <a
+              href="https://www.instagram.com/rafxbarreto/"
+              target="_blank"
+              class="profile__social-link"
+            >
+              <i class="ri-instagram-line"></i>
+            </a>
+          </ul>
+        </div>
+
+        <div class="profile__info grid">
+          <div class="profile__info-group">
+            <h3 class="profile__info-number">7</h3>
+            <p class="profile__info-description">
+
+              Technology <br /> Courses
+
+            </p>
+          </div>
+          <div class="profile__info-group">
+            <h3 class="profile__info-number">+42</h3>
+            <p class="profile__info-description">
+              Completed <br />
+              projects
+            </p>
+          </div>
+          <div class="profile__info-group">
+            <h3 class="profile__info-number">1</h3>
+            <p class="profile__info-description">
+              Satisfied <br />
+              customers
+            </p>
+          </div>
+        </div>
+
+        <div class="profile__buttons">
+          <!-- Insert your CV -->
+          <a download="" href="./pdf/Rafael-Barreto-Linkedln.pdf" class="button">
+            Download CV <i class="ri-download-2-line"></i>
+          </a>
+
+          <div class="profile__buttons-small">
+            <!-- Insert a real number plus country code -->
+            <a
+              href="https://api.whatsapp.com/send?phone=5511954937496&text=Hello, more information!"
+              target="_blank"
+              class="button button__small button__gray"
+            >
+              <i class="ri-whatsapp-line"></i>
+            </a>
+
+            <!-- Insert your brand name or profile -->
+            <a
+              href="mailto:rafael-barreto@outlook.com"
+              target="_blank"
+              class="button button__small button__gray"
+            >
+            <i class="ri-mail-send-line"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <section class="filters container">
+        <!--========== FILTERS TABS ==========-->
+        <ul class="filters__content">
+          <button class="filters__button filter-tab-active" data-target="#projects">
+            Projects
+          </button>
+          <button class="filters__button" data-target="#skills">Skills</button>
+        </ul>
+
+        <div class="filters__sections">
+          <!--========== PROJECTS ==========-->
+          <div class="projects__content grid filters__active" data-content id="projects">
+            <article class="projects__card">
+              <img
+                src="./assets/img/doctor.jpg"
+                alt=""
+                class="projects__img"
+              />
+
+              <div class="projects__modal">
+                <div>
+                  <span class="projects__subtitle">Web</span>
+                  <h3 class="projects__title">DoctorCare Website</h3>
+                  <a href="https://rafaelbarretodev.github.io/doctorcare/" target="_blank" class="projects__button button button__small">
+                    <i class="ri-link"></i>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <article class="projects__card">
+              <img
+                src="./assets/img/food.jpg"
+                alt=""
+                class="projects__img"
+              />
+
+              <div class="projects__modal">
+                <div>
+                  <span class="projects__subtitle">Web</span>
+                  <h3 class="projects__title">Restaurant Website</h3>
+                  <a href="https://rafaelbarretodev.github.io/responsive-food-restaurant-website-lesson/" target="_blank" class="projects__button button button__small">
+                    <i class="ri-link"></i>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <article class="projects__card">
+              <img
+                src="./assets/img/shoes.jpg"
+                alt=""
+                class="projects__img"
+              />
+
+              <div class="projects__modal">
+                <div>
+                  <span class="projects__subtitle">Web</span>
+                  <h3 class="projects__title">Responsive E-commerce Website</h3>
+                  <a href=" https://rafaelbarretodev.github.io/responsive-website-project/" target="_blank" class="projects__button button button__small">
+                    <i class="ri-link"></i>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <article class="projects__card">
+              <img
+                src="./assets/img/music.jpg"
+                alt=""
+                class="projects__img"
+              />
+
+              <div class="projects__modal">
+                <div>
+                  <span class="projects__subtitle">Movil</span>
+                  <h3 class="projects__title">Mini Music Player</h3>
+                  <a href="https://rafaelbarretodev.github.io/mini-music-player-lesson/" target="_blank" class="projects__button button button__small">
+                    <i class="ri-link"></i>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <article class="projects__card">
+              <img
+                src="./assets/img/responsive-footer.jpg"
+                alt=""
+                class="projects__img"
+              />
+
+              <div class="projects__modal">
+                <div>
+                  <span class="projects__subtitle">Web</span>
+                  <h3 class="projects__title">Responsive Footer</h3>
+                  <a href=" https://rafaelbarretodev.github.io/footer-design-responsive/" target="_blank" class="projects__button button button__small">
+                    <i class="ri-link"></i>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <article class="projects__card">
+              <img
+                src="./assets/img/qrcode.jpg"
+                alt=""
+                class="projects__img"
+              />
+
+              <div class="projects__modal">
+                <div>
+                  <span class="projects__subtitle">Project Lesson</span>
+                  <h3 class="projects__title">QR code Generator</h3>
+                  <a href=" https://rafaelbarretodev.github.io/qrcode-generator-javascript/" target="_blank" class="projects__button button button__small">
+                    <i class="ri-link"></i>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <article class="projects__card">
+              <img
+                src="./assets/img/moon.jpg"
+                alt=""
+                class="projects__img"
+              />
+
+              <div class="projects__modal">
+                <div>
+                  <span class="projects__subtitle">Web</span>
+                  <h3 class="projects__title">Parallax Moon</h3>
+                  <a href="https://rafaelbarretodev.github.io/moon-parallax-lesson/" target="_blank" class="projects__button button button__small">
+                    <i class="ri-link"></i>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <article class="projects__card">
+              <img
+                src="./assets/img/clock.jpg"
+                alt=""
+                class="projects__img"
+              />
+
+              <div class="projects__modal">
+                <div>
+                  <span class="projects__subtitle">Web</span>
+                  <h3 class="projects__title">Analog Clock Design</h3>
+                  <a href="https://rafaelbarretodev.github.io/analog-clock/" target="_blank" class="projects__button button button__small">
+                    <i class="ri-link"></i>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+
+
+          </div>
+
+          <!--============ SKILLS ==========-->
+          <div class="skills__content grid" data-content id="skills">
+            <div class="skills__area">
+              <h3 class="skills__title">Frontend Developer</h3>
+
+              <div class="skills__box">
+                <div class="skills__group">
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skills__name">HTML5</h3>
+                      <span class="skills__level">
+                        Basic
+                        <!-- Intermediate -->
+                        <!-- Advanced -->
+                      </span>
+                    </div>
+                  </div>
+
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+                    <div>
+                      <h3 class="skills__name">CSS3</h3>
+                      <span class="skills__level">
+                        Basic
+                        <!-- Intermediate -->
+                        <!-- Advanced -->
+                      </span>
+                    </div>
+                  </div>
+
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+                    <div>
+                      <h3 class="skills__name">JavaScript</h3>
+                      <span class="skills__level">
+                        Basic
+                        <!-- Intermediate -->
+                        <!-- Advanced -->
+                      </span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="skills__group">
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+                    <div>
+                      <h3 class="skills__name">ReactJS</h3>
+                      <span class="skills__level">
+                        Basic
+                        <!-- Intermediate -->
+                        <!-- Advanced -->
+                      </span>
+                    </div>
+                  </div>
+
+                  <!-- <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+                    <div>
+                      <h3 class="skills__name">Bootstrap</h3>
+                      <span class="skills__level">
+                        Basic
+                        Intermediate
+                        Advanced
+                      </span>
+                    </div>
+                  </div> -->
+
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+                    <div>
+                      <h3 class="skills__name">GitHub</h3>
+                      <span class="skills__level">
+                        Basic
+                        <!-- Intermediate -->
+                        <!-- Advanced -->
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="skills__area">
+              <h3 class="skills__title">Backend Developer</h3>
+
+              <div class="skills__box">
+                <div class="skills__group">
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+                    <div>
+                      <h3 class="skills__name">PHP</h3>
+                      <span class="skills__level">
+                        Basic
+                        <!-- Intermediate -->
+                        <!-- Advanced -->
+                      </span>
+                    </div>
+                  </div>
+
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+                    <div>
+                      <h3 class="skills__name">MySQL</h3>
+                      <span class="skills__level">
+                        Basic
+                        <!-- Intermediate -->
+                        <!-- Advanced -->
+                      </span>
+                    </div>
+                  </div>
+
+                  <!-- <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+                    <div>
+                      <h3 class="skills__name">Firebase</h3>
+                      <span class="skills__level">
+                        Basic
+                        Intermediate
+                        Advanced
+                      </span>
+                    </div>
+                  </div>
+                </div> -->
+
+                <div class="skills__group">
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skills__name">Python</h3>
+                      <span class="skills__level">
+                        Basic
+                        <!-- Intermediate -->
+                        <!-- Advanced -->
+                      </span>
+                    </div>
+                  </div>
+
+                  <div class="skills__data">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skills__name">Node Js</h3>
+                      <span class="skills__level">
+                        Basic
+                        <!-- Intermediate -->
+                        <!-- Advanced -->
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer container">
+      <span class="footer__copy">
+        &#169; RafaelBarretoDev. All rights reserved
+      </span>
+    </footer>
+    
+    <!--==================== SCROLLREVEL ====================-->
+    <script src="./assets/js/scrollreveal.min.js"></script>
+    <!--==================== MAIN JS ====================-->
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
